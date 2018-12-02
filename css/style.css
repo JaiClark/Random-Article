@@ -1,0 +1,13 @@
+body {
+   background-color: #FFBC7A;
+}
+
+.container {
+    width: 50%;
+}
+
+button {
+    display: inline;
+    color: #fff;
+    background-color: #A10200;
+}
