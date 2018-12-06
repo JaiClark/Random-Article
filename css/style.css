@@ -6,8 +6,11 @@ body {
     width: 50%;
 }
 
+form {
+    margin-top: 10%;
+}
+
 button {
-    display: inline;
     color: #fff;
     background-color: #A10200;
 }
