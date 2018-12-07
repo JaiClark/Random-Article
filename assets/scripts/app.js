@@ -10,8 +10,16 @@ $(document).ready(function() {
     $.ajax({
       url: api,
       dataType: 'jsonp',
-      success: function(response){
-        console.log(response);
+      success: function(data){
+        console.log(data);
+        console.log(data);
+        for(i = 0; i < data.length; i++) {
+          if(data.length > 0) {
+          $("#result").html("<br>" + "<div class='card' id='data'>" + data[2][0]+ "</div>");
+        }
+        }
+        
+
       }
     });
   });
