@@ -14,3 +14,8 @@ button {
     color: #fff;
     background-color: #A10200;
 }
+
+a:link, a:hover, a:visted {
+    text-decoration: none;
+    color: black;
+}
