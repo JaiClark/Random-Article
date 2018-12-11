@@ -15,7 +15,7 @@ button {
     background-color: #A10200;
 }
 
-a:link, a:hover, a:visted {
+#result{
     text-decoration: none;
-    color: black;
+    background-color:none;
 }
