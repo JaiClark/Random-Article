@@ -24,7 +24,7 @@ $(document).ready(function() {
         
 
         var com=header.map(function(itm,i){
-          return ["<div class='card'><div class='card-body'>" +"<a style='text-decoration: none; color: black;' href=" + link[i] + ">" + "<h5>" + itm + "</h5>" + desc[i] + "</a></div></div>"];
+          return ["<div class='card'><div class='extra card-body'>" +"<a style='text-decoration: none; color: black' href=" + link[i] + ">" + "<h5>" + itm + "</h5>" + desc[i] + "</a></div></div>"];
         // }).done(function(){
         //   var com=link.map(function9itm,i){
             

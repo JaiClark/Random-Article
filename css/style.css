@@ -1,16 +1,16 @@
 body {
-   background-color: #FFBC7A;
+   background-color: #112F41;
 }
 
 .container {
     width: 50%;
 }
 
-form {
+.input-group {
     margin-top: 10%;
 }
 
-button {
+.submit {
     color: #fff;
     background-color: #A10200;
 }
@@ -18,4 +18,8 @@ button {
 #result{
     text-decoration: none;
     background-color:none;
+}
+
+div.extra:hover {
+background-color: #ED553B;
 }
