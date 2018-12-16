@@ -7,7 +7,7 @@ $(document).ready(function() {
     var apiParams = {
       action: "opensearch",
       search: term,
-      limit: 10,
+      limit: 15,
       namespace: 0,
       formatversion: 1,
       format: "json"
@@ -32,7 +32,7 @@ $(document).ready(function() {
         }).join('<br>');
 
 
-        $('#result').append("<div class='card-body'>" + com + '</div></div>');
+        $('#result').empty().append("<div class='card-body'>" + com + '</div></div>');
 
         console.log(header);
         console.log(desc);
