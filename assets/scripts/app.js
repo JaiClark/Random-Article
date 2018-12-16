@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  $(".btn").click(function() {
+  $(".random").click(function() {
+    window.open("https://en.wikipedia.org/wiki/Special:Random");
+  });
+  $(".search").click(function() {
     event.preventDefault();
     var term = $("#term").val();
     console.log(term);
